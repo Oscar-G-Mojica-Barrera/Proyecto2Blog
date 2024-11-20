@@ -22,4 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<<<<<<< HEAD
 # Proyecto2Blog
+=======
+# proyecto-2.0
+>>>>>>> 734aed9 (Actualizacion final)

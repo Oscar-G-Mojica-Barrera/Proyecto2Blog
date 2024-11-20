@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
+=======
+
+  /* Estilos generales */
+
+  /* Estilos para el bloque de usuario */
+header p {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #16a085; /* Fondo verde claro */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    margin-left: 10px;
+  }
+  
+  header a:hover {
+    background-color: #34495e;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+>>>>>>> 734aed9 (Actualizacion final)

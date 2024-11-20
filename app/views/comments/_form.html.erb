@@ -1,4 +1,5 @@
 <%= form_for([@article, @article.comments.build]) do |f| %>
+<<<<<<< HEAD
 <p>
 <%= f.label :commenter %><br>
 <%= f.text_field :commenter %>
@@ -11,3 +12,23 @@
 <%= f.submit %>
 </p>
 <% end %>
+=======
+  <div class="form-group">
+    <%= f.label :comentario %>
+    <%= f.text_field :commenter, class: "form-control" %>
+  </div>
+
+  
+<p>
+
+    <%= f.label :email %><br>
+
+    <%= f.email_field :email, value: current_user.email, readonly: true %> <!-- Muestra el correo electrónico del usuario autenticado -->
+
+</p>
+
+  <div class="form-group">
+    <%= f.submit "Agregar Comentario", class: "btn btn-primary" %>
+  </div>
+<% end %>
+>>>>>>> 734aed9 (Actualizacion final)

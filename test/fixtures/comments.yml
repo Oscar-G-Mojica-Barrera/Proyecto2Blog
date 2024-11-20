@@ -1,6 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+<<<<<<< HEAD
   commenter: MyString
   body: MyText
   article: one
@@ -8,4 +9,11 @@ one:
 two:
   commenter: MyString
   body: MyText
+=======
+  content: MyText
+  article: one
+
+two:
+  content: MyText
+>>>>>>> 734aed9 (Actualizacion final)
   article: two
